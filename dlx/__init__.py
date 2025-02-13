@@ -131,7 +131,7 @@ class DLX:
             self.L[self.R[self.nodect]] = self.nodect
 
             self.N.append(rowName)
-            self.prev = self.nodect
+            prev = self.nodect
             self.nodect += 1
         return first
 
